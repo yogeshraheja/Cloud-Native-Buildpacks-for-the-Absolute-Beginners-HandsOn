@@ -1,0 +1,15 @@
+apiVersion: kpack.io/v1alpha2
+kind: Image
+metadata:
+  name: mynewdemo-image
+  namespace: default
+spec:
+  tag: yogeshraheja/kpackimage
+  serviceAccountName: default
+  builder:
+    name: my-new-builder
+    kind: Builder
+  source:
+    git:
+      url: https://github.com/yogeshraheja/demo-kpack.git
+      revision: f9d95e3da19bfc610922f13304313455fc2b3f52
