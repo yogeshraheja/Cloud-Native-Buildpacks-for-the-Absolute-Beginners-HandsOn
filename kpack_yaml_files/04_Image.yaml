@@ -12,4 +12,4 @@ spec:
   source:
     git:
       url: https://github.com/yogeshraheja/demo-kpack.git
-      revision: f9d95e3da19bfc610922f13304313455fc2b3f52
+      revision: 36ca5ec0515a62445f5a851c3ae5d889e81875dd
